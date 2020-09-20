@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+E:\FAX\Sims\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1857838995.index
+1918552229.index
+1571568914.index
+2855347226.index
+4134548395.index

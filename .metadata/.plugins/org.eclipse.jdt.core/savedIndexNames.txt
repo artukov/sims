@@ -1,0 +1,3 @@
+INDEX VERSION 1.130+E:\FAX\Sims\.metadata\.plugins\org.eclipse.jdt.core
+1735818474.index
+1918552229.index

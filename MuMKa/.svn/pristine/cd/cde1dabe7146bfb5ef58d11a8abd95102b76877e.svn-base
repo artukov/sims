@@ -1,0 +1,21 @@
+/***********************************************************************
+ * Module:  KreiranjeRadnogProstora.java
+ * Author:  Saki
+ * Purpose: Defines the Class KreiranjeRadnogProstora
+ ***********************************************************************/
+
+package controller;
+
+import java.awt.event.ActionEvent;
+
+import javax.swing.AbstractAction;
+
+/** @pdOid d633db76-a80b-4dde-b8f5-02b76eb2bcaa */
+public class KreiranjeRadnogProstora extends AbstractAction {
+   /** @param e
+    * @pdOid ec52ffd4-e615-493e-ab5c-6f24c5528efd */
+   public void actionPerformed(ActionEvent e) {
+      // TODO: implement
+   }
+
+}

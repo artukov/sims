@@ -1,0 +1,52 @@
+package view;
+
+import java.awt.BorderLayout;
+
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JTextField;
+
+import model.Dokument;
+
+public class PrikazivanjeStranice extends JPanel {
+
+	public static Dokument dokument;
+	
+	
+	private pageContent pagePanel;
+	private JButton sledeca;
+	private JButton prethodna;
+	private static JLabel sveStr;
+	private static JTextField trenutnaStr;
+	private JButton izbrisi;
+	
+	public PrikazivanjeStranice() {
+		super();
+		pagePanel=new pageContent();
+		sledeca=new JButton("Sledeca");
+		prethodna=new JButton("Prethodna");
+		trenutnaStr=new JTextField();
+		sveStr=new JLabel();
+		izbrisi=new JButton("Izbrisi");
+		initGui();
+		
+	}
+	private void initGui() {
+		this.setLayout(new BorderLayout());
+		this.add(pagePanel, BorderLayout.CENTER);
+		JPanel novi=new JPanel();
+		novi.add(prethodna);
+		novi.add(trenutnaStr);
+		novi.add(sveStr);
+		novi.add(sledeca);
+		novi.add(izbrisi);
+		this.add(novi, BorderLayout.SOUTH);
+		
+	}
+	public static void setDokument(Dokument doc) {
+		dokument=doc;
+		sveStr.setText(""+dokument.getListaStranica().size());
+		trenutnaStr.setText("1");
+	}
+}

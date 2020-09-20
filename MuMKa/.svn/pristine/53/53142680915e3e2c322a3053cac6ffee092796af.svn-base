@@ -1,0 +1,31 @@
+/***********************************************************************
+ * Module:  BrisanjeRadnogProstora.java
+ * Author:  Saki
+ * Purpose: Defines the Class BrisanjeRadnogProstora
+ ***********************************************************************/
+
+package controller;
+
+import java.awt.event.ActionEvent;
+
+import javax.swing.AbstractAction;
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.DefaultTreeModel;
+
+
+import model.Kolekcija;
+import model.RadniProstor;
+
+
+import view.Window;
+
+/** @pdOid 235970b2-1477-47cd-ae99-20980bd469e0 */
+public class BrisanjeRadnogProstora extends AbstractAction {
+   /** @param e
+    * @pdOid 37335038-7129-4bbb-9da9-a6a227802bb1 */
+   public void actionPerformed(ActionEvent e) {
+      // TODO: implement
+	   
+   }
+
+}
